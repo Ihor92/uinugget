@@ -1,0 +1,268 @@
+* {
+  outline: 0 !important;
+}
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: sans-serif;
+	min-width: 320px;
+}
+
+.flex-s-beetwen {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.flex-column-center {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.flex-end {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+header {
+	background: url(../images/header_bg.jpg) no-repeat top center / cover;
+	max-width: 1600px;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.wrapp {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.head { 
+	width: 100%;
+	color: #fff;
+	text-transform: uppercase;
+	padding-top: 40px;
+}
+
+.head a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.logo {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.menu-nav {
+	width: 40%;
+}
+
+ul {
+	margin: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+.container {
+	display: none;
+}
+
+.hero-text {
+	max-width: 520px;
+	margin: 0 auto;
+	margin-top: 37vh;
+	text-align: center;
+}
+
+h1 {
+	color: #fff;
+	font-size: 43px;
+	font-weight: normal;
+}
+
+button.button {
+	width: 160px;
+	height: 41px;
+	background: #f25a29;
+	text-transform: uppercase;
+	border-radius: 15px;
+	border: none;
+	color: #fff;
+	box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.75);
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+button.button:active {
+	box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.1);
+}
+
+h2 {
+	margin-top: 35px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+.group {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.item {
+	max-width: 260px;
+	text-align: center;
+}
+
+.wrapp-calendar {
+	background: url(../images/browser.png) no-repeat center right;
+	background-color: #ececec;
+	padding: 80px 0;
+}
+
+.quality-service {
+	max-width: 430px;
+}
+
+.text_quality {
+	line-height: 1.5;
+	text-align: justify;
+}
+
+h2 span {
+	color: #f49c86;
+}
+
+
+p {
+	color: #808080;
+}
+
+.r_more a {
+	font-weight: bold;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	color: #545454;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.title-careers {
+	padding: 0 0 90px 0;
+}
+
+.minuspad {
+	padding: 0;
+}
+
+.microsoft {
+	border: #e5e5e5 solid 2px;
+	max-width: 380px;
+	min-height: 347px;
+	font-size: 15px;
+	padding: 0 40px;
+	text-align: center;
+	margin: 25px 10px 0;
+}
+
+hr {
+	border: none;
+    background-color: #ececec;
+    color: #ececec;
+    height: 1px;
+    width: 80%;
+	display: none;
+}
+
+.micros {
+	padding: 6px 0;
+}
+
+.signatur {
+	padding: 9px 0;
+}
+
+.careers {
+	margin: 60px 50px 35px;
+}
+
+.position {
+	color: #f57f58;
+	text-transform: uppercase;
+}
+
+.build_career {
+	background: url(../images/girl.png) no-repeat left;
+	background-color: #eeeef0;
+	padding: 50px 0 50px;
+}
+
+.girl-in-div {
+	display: none;
+}
+
+.with_us {
+	max-width: 490px;
+	padding: 20px 0;
+}
+
+.upload {
+	font-weight: bold;
+}
+
+.submit {
+	margin-top: 20px;
+}
+
+footer {
+	background: #4a4a4a;
+	padding: 20px;
+	color: #fff;
+}
+
+.contacts {
+	width: 18%;
+}
+
+.contacts ul li a {
+	color: #fff;
+	font-size: 18px;
+}
